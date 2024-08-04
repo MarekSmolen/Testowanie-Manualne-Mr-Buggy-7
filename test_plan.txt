@@ -4,7 +4,13 @@ Tytuł: Plan testów do aplikacji Mrbuggy 7
 The goal of the Mr Buggy application is to efficiently manage Change Requests for multiple suppliers. Business pointed out that the decision making of approving or modifying CRs still requires a lot of effort as MD estimation is not enough. Business requires a price estimation, which should be presented to them in euro for each CR and which allows them to make a comparison between CRs and CR value.
 2. Zakres Testu
 Wykonanie testów na poziomie systemowym. Testwana bedzie tylko funcjonalność oprogramowania. Brak dostępu do kodu oprogamowania nie pozwala na wykonainie testów jednostkowych.
-Brak środowiska do pełnych testów niefunkcjonaych. zostanie zastosowana metoda ekploracyjna oparta na specyfikacji funcjoonalnej programu MrBuggy 7
-3. Przedmiot Testu
-
+Brak środowiska do pełnych testów niefunkcjonaych. zostanie zastosowana metoda ekploracyjna oparta na specyfikacji funcjonalnej programu MrBuggy 7 . Największy nacisk będzie kładziony na problemy krytyczne. Testy
+bazować będą na dostarczonej dokumentacji MrBuggy-Change-Reqest-1-v1.pdf.
+3. Testowane Elementy
+ Elementy podlegające testom:
+- interfejs
+- wprowadzanie i zapis danych
+- export danych
+Aplikacja będzie testowana na podstawie dokumentu:
+MrBuggy-Change-Reqest-1-v1.pdf.
 
