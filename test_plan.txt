@@ -1,0 +1,3 @@
+Celem testu jest dostarczenie intersariuszą informacji o jakość prodktu
+2. Zakres Testu
+Wykonanie testów systemowych 
