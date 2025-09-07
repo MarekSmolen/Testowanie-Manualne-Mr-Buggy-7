@@ -1,0 +1,53 @@
+1. Przegląd estymowanych kosztów per change request
+
+TC-01: Sprawdzenie, czy po otwarciu istniejącego change requesta wyświetlane są estymowane koszty.
+
+TC-02: Sprawdzenie, czy estymowane koszty są poprawnie przypisane do właściwego change requesta.
+
+TC-03: Sprawdzenie, czy estymowane koszty są wyświetlane w prawidłowym formacie (kwota + waluta).
+
+2. Przegląd, edycja i dodawanie kosztów 1 MD
+
+TC-04: Dodanie kosztu 1 MD do istniejącego change requesta i weryfikacja poprawności zapisu.
+
+TC-05: Edycja istniejącego kosztu 1 MD (zmiana wartości) i sprawdzenie, czy system poprawnie aktualizuje dane.
+
+TC-06: Próba dodania kosztu w nieprawidłowym formacie (np. litery zamiast cyfr) – oczekiwany komunikat o błędzie.
+
+TC-07: Dodanie kilku różnych kosztów 1 MD i sprawdzenie, czy wszystkie są widoczne w podsumowaniu.
+
+3. Wprowadzanie waluty
+
+TC-08: Wybór waluty z listy dostępnych walut i sprawdzenie, czy koszt jest poprawnie zapisywany w wybranej walucie.
+
+TC-09: Próba wpisania waluty spoza listy – oczekiwany komunikat o błędzie.
+
+TC-10: Sprawdzenie, czy po zmianie waluty wartości kosztów są aktualizowane zgodnie z regułami przeliczeń (jeśli przewidziano).
+
+4. Usuwanie kosztów
+
+TC-11: Usunięcie istniejącego kosztu z change requesta i sprawdzenie, czy koszt znika z listy.
+
+TC-12: Próba usunięcia kosztu, który nie istnieje – oczekiwany komunikat o błędzie.
+
+TC-13: Cofnięcie akcji (jeśli funkcja Undo dostępna) – sprawdzenie, czy koszt został przywrócony.
+
+5. Wyświetlanie obliczonych kosztów
+
+TC-14: Sprawdzenie, czy całkowite koszty są poprawnie sumowane z dodanych wartości MD.
+
+TC-15: Sprawdzenie, czy suma kosztów jest aktualizowana po edycji kosztu 1 MD.
+
+TC-16: Sprawdzenie, czy suma kosztów jest aktualizowana po usunięciu kosztu.
+
+TC-17: Sprawdzenie poprawności wyświetlania kosztów na różnych urządzeniach (Windows 7, mobilne).
+
+6. Notyfikacje
+
+TC-18: Dodanie nowego kosztu – sprawdzenie, czy użytkownik otrzymuje notyfikację.
+
+TC-19: Edycja kosztu – sprawdzenie, czy użytkownik otrzymuje notyfikację.
+
+TC-20: Usunięcie kosztu – sprawdzenie, czy użytkownik otrzymuje notyfikację.
+
+TC-21: Próba wykonania niepoprawnej akcji (np. dodanie kosztu w złym formacie) – sprawdzenie, czy system wysyła notyfikację o błędzie.
